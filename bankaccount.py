@@ -36,8 +36,12 @@ spiderman = BankAccount()
 # wolverine makes 3 deposits, 1 withdrawl, yield interest and display account info
 wolverine.deposit(100).deposit(200).deposit(450).withdraw(300).yield_interest().display_account_info()
 
+print("------------")
+
 # spiderman make 2 deposits, 4 withdrawls, yields interest, and display account info
 spiderman.deposit(500).deposit(1000).withdraw(100).withdraw(100).withdraw(100).withdraw(100).yield_interest().display_account_info()
+
+print("------------")
 
 # NINJA BONUS
 BankAccount.display_accounts()
